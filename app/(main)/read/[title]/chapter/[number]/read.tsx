@@ -54,21 +54,9 @@ export default function ReaderPage({ params } : PageProps) {
       <header className="top-0 z-20 border-b border-[#3b3329] bg-[#11100f]/95 px-5 py-4 backdrop-blur">
         <div className="mx-auto flex max-w-4xl items-center justify-between">
          
-          <Link href="/" className="flex items-center gap-2 text-sm text-[#bcb2a4]">
+          <Link href="/" className="flex items-center gap-2 text-sm text-white">
             <ArrowLeft size={16} /> Back to shelf
           </Link>
-
-          <div className="flex items-center gap-2">
-            
-            <button onClick={() => setSaved(!saved)} className="rounded-full border border-[#3b3329] p-2 text-[#d5a85d]" aria-label="Bookmark story">    
-              <Bookmark size={17} fill={saved ? 'currentColor' : 'none'} />
-            </button>
-            
-            {/* <button className="rounded-full border border-[#3b3329] p-2 text-[#bcb2a4]" aria-label="Reader settings">
-              <Settings2 size={17} />
-            </button> */}
-            
-          </div>
           
         </div>
 
