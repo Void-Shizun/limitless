@@ -51,7 +51,7 @@ export default function ReaderPage({ params } : PageProps) {
 
   return (
     <main className="min-h-screen bg-white text-[#e9e0d4]">
-      <header className="sticky top-0 z-20 border-b border-[#3b3329] bg-[#11100f]/95 px-5 py-4 backdrop-blur">
+      <header className="top-0 z-20 border-b border-[#3b3329] bg-[#11100f]/95 px-5 py-4 backdrop-blur">
         <div className="mx-auto flex max-w-4xl items-center justify-between">
          
           <Link href="/" className="flex items-center gap-2 text-sm text-[#bcb2a4]">
